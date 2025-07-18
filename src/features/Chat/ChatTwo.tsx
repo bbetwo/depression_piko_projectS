@@ -5,13 +5,13 @@ export const ChatTwo = () => {
   const [msgItems, setMsgItems] = useState<string[]>([]);
   const [soket, setSoket] = useState<WebSocket | null>(null);
 
-  useEffect(() => {
-    const ws = new WebSocket("sss");
-    ws.onmessage = (e) => setMsgItems((prev) => [...prev, e.data]);
+  //   useEffect(() => {
+  //     const ws = new WebSocket("sss");
+  //     ws.onmessage = (e) => setMsgItems((prev) => [...prev, e.data]);
 
-    setSoket(ws);
-    return () => ws.close();
-  }, []);
+  //     setSoket(ws);
+  //     return () => ws.close();
+  //   }, []);
 
   return (
     <div>

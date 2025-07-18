@@ -1,3 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-t-dark-purple: #320a28ff;
+  --color-t-purple: #511730ff;
+  --color-t-current: #197278ff;
+  --color-t-sky-blue: #53d8fbff;
+  --color-t-magenta: #c45baaff;
+}
+/* { 'dark_purple': { DEFAULT: '#320a28', 100: '#0a0208', 200: '#140410', 300: '#1f0619', 400: '#290821', 500: '#320a28', 600: '#7e1965', 700: '#c928a1', 800: '#e169c3', 900: '#f0b4e1' }, 'tyrian_purple': { DEFAULT: '#511730', 100: '#100409', 200: '#200913', 300: '#300d1c', 400: '#401226', 500: '#511730', 600: '#8f2855', 700: '#c9407b', 800: '#db80a7', 900: '#edbfd3' }, 'caribbean_current': { DEFAULT: '#197278', 100: '#051618', 200: '#0a2d2f', 300: '#0f4347', 400: '#135a5f', 500: '#197278', 600: '#25aab3', 700: '#48d0da', 800: '#85e0e6', 900: '#c2eff3' }, 'vivid_sky_blue': { DEFAULT: '#53d8fb', 100: '#023341', 200: '#036681', 300: '#0599c2', 400: '#10c6f9', 500: '#53d8fb', 600: '#74defb', 700: '#97e6fc', 800: '#b9effd', 900: '#dcf7fe' }, 'sky_magenta': { DEFAULT: '#c45baa', 100: '#2a0f23', 200: '#541e47', 300: '#7e2d6a', 400: '#a83d8d', 500: '#c45baa', 600: '#cf7bba', 700: '#db9ccc', 800: '#e7bddd', 900: '#f3deee' } } */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
